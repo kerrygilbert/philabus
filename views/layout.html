@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      {% block title %}
+        PhilaBus
+      {% endblock %}
+    </title>
+    {% block css %}
+      <link href="/stylesheets/style.css" rel="stylesheet" />
+    {% endblock %}
+    {% block js %}
+      <script type="text/javascript" src="./javascripts/jquery.js"> </script>
+      <script type="text/javascript" src="./javascripts/main.js"> </script>
+    {% endblock %}
+  </head>
+  <body class="{% block bodyClass %}home{%endblock %}">
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
