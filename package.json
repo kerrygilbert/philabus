@@ -10,6 +10,7 @@
     "ejs": "*",
     "nunjucks": "0.1.x",
     "less-middleware": "*",
-    "geocoder": "*"
+    "geocoder": "*",
+    "node-septa":"0.0.x"
   }
 }
